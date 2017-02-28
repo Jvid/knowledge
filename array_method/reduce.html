@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+<script type="text/javascript">
+//将上一次运算的结果作为previous  然后执行接下来的运算
+	var sum = [1, 2, 3, 4].reduce(function (previous, current, index, array) {
+	  return previous + current;
+	});
+	console.log(sum); // 10
+</script>
+</html>

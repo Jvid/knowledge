@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+<script type="text/javascript">
+//every()中的函数是一个接受最多三个参数的函数。 every 方法会为 array1 中的每个元素调用 callbackfn 函数，直到 callbackfn 返回 false，或直到到达数组的结尾。
+	var arr = [1,2,3,4,5];
+	function db(n){
+		return n>3;
+	}
+	var arr1 = arr.every(db);
+	console.log(arr)
+	console.log(arr1)//false
+
+	function jg(){
+		console.log(arguments)
+	}
+	console.log(arr.every(jg))
+</script>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+<script type="text/javascript">
+//返回数组中第一个符合条件的元素 如果没有返回undefined
+	var arr = [1,2,3,4,5]
+	function big(n){
+		return n >= 3;
+	}
+	function big2(n){
+		return n > 5;
+	}
+	var arr1 = arr.find(big);
+	console.log(arr1) // 3
+	console.log(arr)
+	var arr2 = arr.find(big2);
+	console.log(arr2) // undefined
+</script>
+</html>

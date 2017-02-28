@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+<script type="text/javascript">
+	//filter() 方法创建一个新的数组，新数组中的元素是通过检查指定数组中符合条件的所有元素。
+	//注意： filter() 不会对空数组进行检测。
+	//注意： filter() 不会改变原始数组。
+
+	var arr = [1,2,3,4,5]
+	var arr1 = arr.filter(function(n){
+		return n%2 == 0
+	})
+	console.log(arr1) //2,4
+	
+</script>
+</html>

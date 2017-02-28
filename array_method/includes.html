@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+<script type="text/javascript">
+//判断数组中是否存在某个元素  存在返回true 不存在返回false
+//第一个参数是要查看的元素   第二个参数是数组的开始下标
+	var arr = [1,2,3,4,5,6]
+	var a = arr.includes(2)//true
+	var b = arr.includes(7)//false
+	var c = arr.includes(2,0)//true
+	var d = arr.includes(2,3)//false
+	var e = arr.includes(3,-3)//false
+	var f = arr.includes(3,-5)//true
+	console.log(a,b,c,d,e,f);
+</script>
+</html>
